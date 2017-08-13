@@ -5,4 +5,15 @@
 
 .contentOne {
 	height: 100vh;
+	background-image: url('./photos/macWallpaper.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.logo {
+	background: url('./photos/OA_logo.png') no-repeat;
+	background-size: 250px;
+	width: 260px;
+	height: 170px;
+	margin: auto;
+
 }
