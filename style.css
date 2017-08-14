@@ -13,5 +13,10 @@
 }
 .logo {
 	width: 10%;
-	border: 1px solid green;
+	border-radius: 6px;
+	/*border: 1px solid green;*/
+}
+.headImg {
+	width: 15%;
+	height: 100%;
 }
