@@ -10,6 +10,8 @@
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 0px;
 }
 .logo {
 	width: 10%;
@@ -20,3 +22,40 @@
 	width: 15%;
 	height: 100%;
 }
+
+.contentTwo{
+	height: 50vh;
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+
+.contentThree{
+	height: 50vh;
+	margin-bottom: 0px;
+	background-color: #eee;
+}
+.contentFour {
+	height: 50vh;
+	background-color: #fff;
+}
+.contentFive {
+	height: 20vh;
+	width: 100%;
+}
+.contentFiveA{
+	background-color: #006633;
+	height: 20vh;
+	width: 100%;
+}
+.contentFiveB{
+	background-color: #339999;
+	height: 20vh;
+	width: 100%;
+}
+
+
+
+
+
+
+
