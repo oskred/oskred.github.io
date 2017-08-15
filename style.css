@@ -2,6 +2,9 @@
 	height: 1000px;
 	width: 100%;
 }*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 
 .contentOne {
 	height: 100vh;
@@ -10,7 +13,6 @@
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
 	margin-bottom: 0px;
 }
 .logo {
@@ -24,13 +26,13 @@
 }
 
 .contentTwo{
-	height: 50vh;
+	height: 600px;
 	margin-bottom: 0px;
 	background-color: #fff;
 }
 
 .contentThree{
-	height: 50vh;
+	height: 1050px;
 	margin-bottom: 0px;
 	background-color: #eee;
 }
