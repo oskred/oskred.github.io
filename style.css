@@ -41,16 +41,19 @@ body {
 	background-color: #fff;
 }
 .contentFive {
-	height: 20vh;
+	 /*height: 50vh;*/
 	width: 100%;
+	background-color: #fff;
+	/*margin-bottom: 0px;*/
+
 }
 .contentFiveA{
-	background-color: #006633;
+	background-color: #339999;
 	height: 20vh;
 	width: 100%;
 }
 .contentFiveB{
-	background-color: #339999;
+	background-color: #006633;
 	height: 20vh;
 	width: 100%;
 }
@@ -65,7 +68,13 @@ body {
 	text-align: center;
 }
 
-
+.siteDisplay {
+	width: 120%;
+}
+/*
+.projectDisplay {
+	border-bottom: 1px solid #006633;
+}*/
 
 
 
