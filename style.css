@@ -53,6 +53,16 @@
 	width: 100%;
 }
 
+/*.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}*/
+.skillContent {
+	text-align: center;
+}
+
 
 
 
