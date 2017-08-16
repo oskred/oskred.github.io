@@ -44,8 +44,11 @@ body {
 	background-color: #eee;
 }
 .contentFour {
-	height: 50vh;
-	background-color: #fff;
+	height: 80vh;
+	background-image: url('./photos/aerialshot.jpg');
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 0px;
 }
 .contentFive {
 	 /*height: 50vh;*/
