@@ -69,13 +69,28 @@ body {
 }
 
 .siteDisplay {
-	width: 120%;
+	width: 70%;
 }
-/*
-.projectDisplay {
-	border-bottom: 1px solid #006633;
-}*/
 
+.projectDisplay {
+	border-bottom: 1.2px solid #006633;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	margin-right: auto;
+	margin-left: auto; 
+	/*text-align: center;*/
+}
+.projectDisplay2 {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+hr {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #006633;
+}
 
 
 
