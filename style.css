@@ -6,6 +6,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+a {
+	color: #ffffff;
+}
+
 .contentOne {
 	height: 100vh;
 	background-image: url('./photos/macWallpaper.jpg');
@@ -93,8 +97,9 @@ transition: transform .5s ease-out;
     bottom: 10%;
     left: 0;
     font-size: 9px;
-    line-height: 12px;
+    line-height: 280px;
     text-align: center;
+	vertical-align: middle;
     cursor: default;
     color: white;
   }
