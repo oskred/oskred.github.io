@@ -10,6 +10,10 @@ a {
 	color: #ffffff;
 }
 
+.row {
+	margin-right: 0px;
+}
+
 .contentOne {
 	height: 100vh;
 	background-image: url('./photos/macWallpaper.jpg');
@@ -45,6 +49,9 @@ a {
 	/*height: 1050px;*/
 	margin-bottom: 0px;
 	background-color: #eee;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-bottom: 0px;
 }
 
 .projectDisplay {
