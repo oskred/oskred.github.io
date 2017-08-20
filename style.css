@@ -103,6 +103,11 @@ a {
 
 }
 
+.contentSix {
+text-align: center;
+padding-top: 50px;
+}
+
 .photo {
 position: absolute;
 top: 0;
@@ -143,7 +148,7 @@ transition: transform .5s ease-out;
 
 .contentSix{
 	background-color: #006633;
-	height: 20vh;
+	height: 35vh;
 	width: 100%;
 }
 
