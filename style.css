@@ -10,6 +10,20 @@ a {
 	color: #ffffff;
 }
 
+a:hover, a:active, a:link {
+	color: #ffffff;
+	text-decoration: none;
+	cursor:pointer;  
+
+}
+
+/*a:active {
+	color: #ffffff;
+	text-decoration: none;
+	cursor:pointer;  
+
+}*/
+
 .btn-primary-outline {
 	 background-color: transparent;
 }

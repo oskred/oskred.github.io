@@ -63,7 +63,7 @@ $('.contentFiveA')
         // add a photo container
         .append('<div class="photo"></div>')
         // some text just to show zoom level on current item in this example
-        .append('<div class="txt"><div class="x">Want to work together?</div><br> I' + "'" + 'm always open to new ideas. Please feel free to contact me and let me know a little about the opportunity.  <br><br> <button type="button" style="border-color: #ffffff; border-radius: 50px;" class="btn btn-success btn-lg btn-primary-outline">Contact me</button></div>')
+        .append('<div class="txt"><div class="x">Want to work together?</div><br> I' + "'" + 'm always open to new ideas. Please feel free to contact me and let me know a little about the opportunity.  <br><br> <button type="button" style="border-color: #ffffff; border-radius: 50px;" class="btn btn-success btn-lg btn-primary-outline"><a href="mailto:abella.eduardo@gmail.com">Contact me</button></div>')
         // set up a background image for each tile based on data-image attribute
         .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
     })
