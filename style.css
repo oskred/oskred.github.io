@@ -60,31 +60,38 @@ a {
 	/*margin-right: auto;
 	margin-left: auto; */
 	position: relative;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
 	/*text-align: center;*/
 	border-bottom: 1px solid #d6e1e5;
 }
 
 .testimonialDisplay {
 	padding-top: 20px;
-	padding-bottom: 80px;
-	margin-right: auto;
-	margin-left: auto; 
+	padding-bottom: 40px;
+/*	margin-right: auto;
+	margin-left: auto; */
 	position: relative;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 90px;
+	padding-left: 90px;
 	text-align: center;
 	border-bottom: 1px solid #d6e1e5;
 
+}
+
+.quote {
+	font-weight: 300;
 }
 
 .contentFour {
 	margin-bottom: 0px;
 	width: 100%;
 	background-color: #fff;
-	height: 90vh;
+	/*height: 90vh;*/
+}
 
+.pProject {
+	text-align: center;
 }
 
 .contentFive{
