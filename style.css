@@ -10,6 +10,10 @@ a {
 	color: #ffffff;
 }
 
+.btn-primary-outline {
+	 background-color: transparent;
+}
+
 .row {
 	margin-right: 0px;
 }
@@ -92,6 +96,8 @@ a {
 
 .pProject {
 	text-align: center;
+	padding: 20px;
+	padding-bottom: 40px;
 }
 
 .contentFive{
