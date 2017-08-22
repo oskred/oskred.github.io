@@ -7,11 +7,11 @@ body {
 }
 
 a {
-	color: #505c68;
+	color: #ff8c00;
 }
 
 a:hover, a:active, a:link {
-	color: #505c68;
+	color: white;
 	text-decoration: none;
 	cursor:pointer;  
 
@@ -24,9 +24,20 @@ a:hover, a:active, a:link {
 
 }*/
 
+.btn-begin {
+	color: white;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	color: #505c68;
+	background-color: #ff8c00;
+	transition: all 0.3s ease 0s;
+}
+
 .btn-primary-outline {
 	 background-color: transparent;
 }
+
 
 .btn-default:hover {
 	background-color: #505c68;
