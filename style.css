@@ -11,7 +11,7 @@ a {
 }
 
 a:hover, a:active, a:link {
-	color: #ffffff;
+	color: #d8d8d8;
 	text-decoration: none;
 	cursor:pointer;  
 
@@ -142,10 +142,12 @@ a:hover, a:active, a:link {
     height: 80vh;
     overflow: hidden;
 }
-
-.contentSix {
-text-align: center;
-padding-top: 50px;
+.contentSix{
+	background-color: #006633;
+	height: 35vh;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .photo {
@@ -186,11 +188,6 @@ transition: transform .5s ease-out;
     color: white;
   }
 
-.contentSix{
-	background-color: #006633;
-	height: 35vh;
-	width: 100%;
-}
 
 /*.col-md-4 {
     position: relative;
