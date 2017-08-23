@@ -39,6 +39,19 @@ a:hover, a:active, a:link {
 	color: #eee;
 }
 
+.btn-sites {
+	background-color: white;
+	border-color: #505c68;
+	color: #505c68;
+}
+
+.btn-sites:hover{
+	background-color: #505c68;
+	border-color: black;
+	transition: all 0.3s ease 0s;
+	color: #eee;
+}
+
 .row {
 	margin-right: 0px;
 }
@@ -96,8 +109,8 @@ a:hover, a:active, a:link {
 }
 
 .testimonialDisplay {
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 80px;
 /*	margin-right: auto;
 	margin-left: auto; */
 	position: relative;
@@ -109,7 +122,8 @@ a:hover, a:active, a:link {
 }
 
 .quote {
-	font-weight: 300;
+	font-style: normal;
+	font-weight: bold;
 }
 
 .contentFour {
