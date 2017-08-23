@@ -17,13 +17,6 @@ a:hover, a:active, a:link {
 
 }
 
-/*a:active {
-	color: #ffffff;
-	text-decoration: none;
-	cursor:pointer;  
-
-}*/
-
 .btn-begin {
 	color: white;
 }
@@ -92,7 +85,7 @@ a:hover, a:active, a:link {
 
 .projectDisplay {
 	padding-top: 20px;
-	padding-bottom: 80px;
+	padding-bottom: 70px;
 	/*margin-right: auto;
 	margin-left: auto; */
 	position: relative;
