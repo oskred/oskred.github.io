@@ -38,7 +38,7 @@ function doScrolling(element, duration) {
 
 // Apply event handlers. Example of firing the scrolling mechanism.
 document.getElementById('scrollMyExpertise').addEventListener('click', doScrolling.bind(null, '#myExpertise', 1000))
-
+document.getElementById('scrollMyExpertise1').addEventListener('click', doScrolling.bind(null, '#myExpertise', 1000))
 
 
 // hover zoom enabler
