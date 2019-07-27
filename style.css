@@ -105,13 +105,21 @@ a:hover, a:active, a:link {
 	height: 100%;
 }
 
+.prj_desc-a {
+
+}
+
+.prj_desc-b {
+	text-align: center;
+}
+
+
 .contentTwo{
-	height: 600px;
 	margin-bottom: 0px;
 	background-color: #fff;
 }
+
 .contentThree{
-	/*height: 1050px;*/
 	margin-bottom: 0px;
 	background-color: #eee;
 	margin-right: 0px;
@@ -120,14 +128,6 @@ a:hover, a:active, a:link {
 }
 
 .projectDisplay {
-	padding-top: 20px;
-	padding-bottom: 70px;
-	/*margin-right: auto;
-	margin-left: auto; */
-	position: relative;
-	padding-right: 30px;
-	padding-left: 30px;
-	/*text-align: center;*/
 	border-bottom: 1px solid #d6e1e5;
 }
 
