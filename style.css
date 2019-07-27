@@ -1,7 +1,4 @@
-/*.contentOne {
-	height: 1000px;
-	width: 100%;
-}*/
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -10,11 +7,35 @@ a {
 	color: #ff8c00;
 }
 
+.og-accent {
+	color: #ff8c00
+}
+
+.main-nav {
+	background-color: transparent;
+	justify-content: flex-end;
+}
+
+.main-nav.scrolled {
+  background-color: #505c68 !important;
+  transition: background-color 200ms linear;
+}
+
+.main-nav.scrolled .nav-link {
+  color: #fff;
+}
+
+
 a:hover, a:active, a:link {
 	color: white;
 	text-decoration: none;
-	cursor:pointer;  
+	cursor:pointer;
 
+}
+
+.skill_list {
+	text-align: left;
+	list-style: none;
 }
 
 .btn-begin {
@@ -65,6 +86,7 @@ a:hover, a:active, a:link {
 	text-align: center;
 	margin-bottom: 0px;
 }
+
 .logo {
 	width: 10%;
 	border-radius: 6px;
@@ -143,7 +165,7 @@ a:hover, a:active, a:link {
 .contentFive{
 	/*height: 90vh;
 	background-image: url('./photos/aerialshot.jpg');*/
-	
+
 	/*width: 100%;*/
 	position: relative;
     top: 0;
@@ -238,7 +260,3 @@ hr {
 	padding-right: 0px;
 	padding-left: 0px;
 }
-
-
-
-

@@ -4,50 +4,85 @@
 	<title>Oscar Abella | Portfolio</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 
-<!-- BEGIN MAIN CONTENT -->
+	<ul class="nav fixed-top main-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="#home">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#myExpertise">My Experience</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#featuredProjects">Featured Projects</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#moreProjects">Projects</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#contactMe">Contact Me</a>
+		</li>
+	</ul>
 
-<div class="jumbotron contentOne">
-	<div class="container">
-		<img class="logo" src="./photos/oskr-logo.jpg">
+<div class="contentOne" id="home">
+	<div class="container contentOne-inner">
+		<!-- <img class="logo" src="./photos/oskr-logo.jpg"> -->
 
-	  <h1>Hi, I'm Oscar.</h1>
+	 <!-- <h1>Hi, I'm Oscar.</h1>
 	  <p> I'm a Front-End developer with an eye for detail, a knack for writing quality code, and an interest in cutting-edge tech. </p>
 		<button type="button" style="margin-bottom: 8px; border-width: 2.5px; border-color: #ff8c00;border-radius: 50px; font-size: 14px;" href="#" id="scrollMyExpertise" class="btn btn-lg btn-begin btn-primary-outline">LEARN MORE ABOUT ME
 		</button>
-		<br>
-		<i id="scrollMyExpertise1" style="cursor: pointer;" class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i>
+		<br>  -->
+		<!-- <i id="scrollMyExpertise1" style="cursor: pointer;" class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i> -->
 	</div>
 </div>
 
 <!-- BEGIN SECOND CONTENT PANEL -->
 
-<div class="jumbotron contentTwo" id="myExpertise">
+<div class="contentTwo" id="myExpertise">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 skillContent">
-				<h3 style="font-size: 32px; font-weight: bold;">My Expertise</h3>
-				<p style="color: #505c68;">I've got chops in design and development.</p><br><br>
+				<h3>My Expertise</h3>
+				<p>I've got chops in design and development.</p><br><br>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 skillContent">
-			<i class="fa fa-5x fa-code" align="center" style="color: #ff8c00" aria-hidden="true"></i>
-				<h4 style="text-align: center; font-size: 28px; font-weight: bold;">DESIGN</h4>
+				<h4>DESIGN</h4>
 				<br>
-				<p style="color: #505c68;font-size: 15px; font-weight: lighter; ">Experience in JavaScript, jQuery, Node.js, HTML5/CSS3, Bootstrap, Wordpress, Materialize, Git/CLI, React.js, State Management, Responsive Design, API/JSON, SASS/SCSS, &amp; more.</p>
+				<ul class="skill_list">
+					<li><i class="fas fa-angle-right og-accent"></i> Adobe XD</li>
+					<li><i class="fas fa-angle-right og-accent"></i> Customer & Competitor Analysis</li>
+					<li><i class="fas fa-angle-right og-accent"></i> Photoshop</li>
+					<li><i class="fas fa-angle-right og-accent"></i> Prototyping/WireFraming </li>
+					<li><i class="fas fa-angle-right og-accent"></i> User Research</li>
+				</ul>
 			</div>
 			<div class="col-md-6 skillContent">
-			<i style="color: #ff8c00" class="fa fa-exclamation-circle fa-5x" aria-hidden="true"></i>
 				<h4 style="text-align: center;
 				font-size: 28px; font-weight: bold">DEVELOPMENT</h4>
 				<br>
-				<p style="font-size: 15px; font-weight: lighter; color: #505c68;">
-				 Proven experience in Front-End development tools like JavaScript, jQuery, HTML5/CSS3, Bootstrap, WORDPRESS, VERSION CONTROL (Github, Bitbucket, Terminal), React, Angular, Responsive Design, API/JSON, SASS/SCSS, &amp; more.
+				<div class="d-flex">
+					<ul class="skill_list">
+						<li><i class="fas fa-angle-right og-accent"></i> Javascript</li>
+						<li><i class="fas fa-angle-right og-accent"></i> Jquery</li>
+						<li><i class="fas fa-angle-right og-accent"></i> HTML5/CSS3</li>
+						<li><i class="fas fa-angle-right og-accent"></i> Bootstrap</li>
+						<li><i class="fas fa-angle-right og-accent"></i> NodeJS</li>
+					</ul>
+					<ul class="skill_list">
+						<li><i class="fas fa-angle-right og-accent"></i> Sass/Scss</li>
+						<li><i class="fas fa-angle-right og-accent"></i> CMS (Wordpress, Drupal, Sitefinity)</li>
+						<li><i class="fas fa-angle-right og-accent"></i> Angular, React </li>
+						<li><i class="fas fa-angle-right og-accent"></i> Responsive Design </li>
+						<li><i class="fas fa-angle-right og-accent"></i> Version Control (Github, Bitbucket, Terminal) </li>
+					</ul>
+				</div>
 				</p>
 			</div>
 		</div>
@@ -56,7 +91,7 @@
 
 <!-- BEGIN THIRD CONTENT PANEL -->
 
-<div class="jumbotron contentThree">
+<div class="contentThree" id="featuredProjects">
 		<h3 style="font-size: 32px; font-weight: bold; text-align: center;"> Group Works </h3>
 		<br><br>
 		<!-- BEGIN FIRST PROJECT DISPLAY -->
@@ -125,7 +160,7 @@
 
 <!-- BEGIN FOURTH CONTENT PANEL -->
 
-	<div class="container contentFour">
+	<div class="container contentFour" id="moreProjects">
 		<div>
 		<div style="text-align: center;">
 			<h3>Personal Projects</h3>
@@ -184,7 +219,7 @@
 
 <!-- BEGIN FIFTH CONTENT PANEL -->
 
-		<div class="contentFive">
+		<div class="contentFive" id="contactMe">
 			<div class="contentFiveA" data-scale="1.5" data-image="https://cdn.theatlantic.com/static/mt/assets/science/Amateur-built-environment-1-Sergey-Semenov.jpeg">
 			</div>
 		</div>
